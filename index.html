@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Saxena | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">PS</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    <span>Available for work</span>
+                </div>
+                <h1>Building <span class="highlight">Scalable</span> Modern Solutions for the Future</h1>
+                <p>AI & ML Engineer | Full Stack Developer</p>
+                <div class="hero-buttons">
+                    <a href="assest/Parth Saxena_VITB.pdf" class="btn primary">Download CV</a>
+                    <a href="#contact" class="btn secondary">Let's Connect</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="image/avtar.png" alt="Stylized avatar">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm Parth Saxena, an AI & ML Engineer and Full Stack Developer pursuing Integrated M.Tech in AI at VIT Bhopal University. I'm passionate about building intelligent systems and creating scalable web applications that solve real-world problems.</p>
+                    <p>With experience in software development internships at Vallicate Technologies and Relaniq Consultants, I've gained skills in developing end-to-end web applications, implementing machine learning models, and creating data-driven solutions.</p>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>VIT Bhopal University, Bhopal, Madhya Pradesh</h4>
+                            <p>Integrated M.Tech in AI (5 years)</p>
+                            <p>GPA: 8.40/10</p>
+                            <p>Apr 2022 - Present</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-text">Projects Completed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">2</div>
+                        <div class="stat-text">Internships</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <div class="stat-text">AI/ML Applications</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/pic.png" alt="MovieMatch Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>MovieMatch</h3>
+                        <p>A robust movie recommendation system using the TMDB 5000 dataset, implementing a content-based filtering approach with NLP techniques.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>NLTK</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <a href="projects/moviematch.html" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/anemia.png" alt="Anemia Detection Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Anemia Detection</h3>
+                        <p>An ML-powered system that detects anemia using conjunctiva images with 96% recall rate, using CNN and Random Forest classifiers.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>ML</span>
+                            <span>DL</span>
+                            <span>OpenCV</span>
+                            <span>TensorFlow</span>
+                            <span>Keras</span>
+                        </div>
+                        <a href="projects/anemia-detection.html" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/vastraversa.png" alt="VastraVersa Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>VastraVersa</h3>
+                        <p>A fashion-tech platform that helps users discover their personal style and get clothing recommendations.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>CSS</span>
+                            <span>ML</span>
+                        </div>
+                        <a href="projects/vastraversa.html" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/bot.png" alt="VastraBot Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>VastraBot</h3>
+                        <p>An AI-powered chatbot that provides fashion advice and styling recommendations to users.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>AI</span>
+                            <span>Flask</span>
+                        </div>
+                        <a href="projects/vastrabot.html" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/electricty.png" alt="Electricity Demand Forecasting">
+                    </div>
+                    <div class="project-content">
+                        <h3>Electricity Demand Forecasting</h3>
+                        <p>A predictive system that forecasts electricity demand using time-series analysis and machine learning.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Time Series</span>
+                            <span>ML</span>
+                            <span>Pandas</span>
+                        </div>
+                        <a href="projects/electricity-demand.html" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/budget.png" alt="BudgetPal Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>BudgetPal</h3>
+                        <p>A personal finance management application that helps users track expenses and manage their budget.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="projects/budgetpal.html" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jun 2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Software Development Intern</h3>
+                        <h4>Vallicate Technologies Pvt. Ltd.</h4>
+                        <p>On-site (Bangalore)</p>
+                        <ul>
+                            <li>Engineered a residential web application (TROA) from scratch, following a structured multi-page layout with modules for finding roommates, protocols, and member management.</li>
+                            <li>Designed and implemented a relational database schema to handle user authentication, content management, and dynamic data flows.</li>
+                            <li>Integrated secure online payment functionality and automated dues tracking.</li>
+                            <li>Developed and tested a Python-based chatbot to answer resident support queries and involved in full-cycle development including architecture planning, feature integration, testing, and deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jun 2022 - Mar 2023</div>
+                    <div class="timeline-content">
+                        <h3>Web Development Intern</h3>
+                        <h4>Relaniq Consultants</h4>
+                        <p>Remote (Bhubaneswar)</p>
+                        <ul>
+                            <li>Redesigned and enhanced the company's official website by improving UI/UX, responsiveness, and implementing new innovative features.</li>
+                            <li>Developed a dedicated section to showcase articles and company highlights, increasing brand visibility and engagement.</li>
+                            <li>Refactored the frontend of a client's e-commerce platform, optimizing product browsing, user interface, and checkout experience.</li>
+                            <li>Added interactive animations and subtle visual enhancements to improve website aesthetics and user engagement.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="container">
+      <div class="contact-content">
+          <div class="contact-text">
+              <h2>Contact Me</h2>
+              <p>Reach out today to discuss your project needs and start collaborating on something amazing!</p>
+              <div class="social-links">
+                  <a href="https://github.com/parthsaxena" target="_blank" rel="noopener" aria-label="GitHub">
+                      <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/iamparth99/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                      <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </div>
+          </div>
+          <div class="contact-form">
+              <form id="contactForm">
+                  <div class="form-row">
+                      <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" id="name" name="name" placeholder="Your name" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" placeholder="Your email" required>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" rows="6" placeholder="What would you like to discuss?" required></textarea>
+                  </div>
+                  <button type="submit" class="btn submit-btn">Submit</button>
+              </form>
+              <div id="form-status" class="hidden"></div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+      <div class="footer-content">
+          <div class="footer-left">
+              <div class="footer-logo">PS</div>
+              <p>Let's work together today!</p>
+              <a href="#contact" class="start-project-btn">Start Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+          
+          <div class="footer-links">
+              <div class="footer-links-column">
+                  <h3>Sitemap</h3>
+                  <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#work">Work</a></li>
+                      <li><a href="#experience">Experience</a></li>
+                      <li><a href="#contact">Contact me</a></li>
+                  </ul>
+              </div>
+              
+              <div class="footer-links-column">
+                  <h3>Socials</h3>
+                  <ul>
+                      <li><a href="https://github.com/parthsaxena" target="_blank">GitHub</a></li>
+                      <li><a href="https://www.linkedin.com/in/iamparth99/" target="_blank">LinkedIn</a></li>
+                      <li><a href="https://twitter.com/" target="_blank">Twitter X</a></li>
+                      <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                      <li><a href="https://leetcode.com/" target="_blank">Leetcode</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      
+      <div class="footer-bottom">
+          <div class="copyright">
+              <p>&copy; 2025 Parth Saxena</p>
+          </div>
+          <div class="footer-social">
+              <a href="https://github.com/parthsaxena" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/iamparth99/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+                  <i class="fab fa-instagram"></i>
+              </a>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
